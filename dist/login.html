@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1ff25b95ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Developer Light | Blog for Developers</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-dark">
+      <a href="index.html">
+        <h1>
+          <i class="far fa-file-code"></i>
+          DevLight Blog
+        </h1>
+      </a>
+      <ul class="d-flex">
+        <li>
+          <a href="blogs.html">Blogs</a>
+        </li>
+        <li>
+          <a href="developers.html">Developers</a>
+        </li>
+        <li>
+          <a href="login.html">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="login">
+      <div class="container">
+        <h1 class="fs-lg my-1 text-primary">Sign In</h1>
+        <p>Get logged in to your account</p>
+        <form action="dashboard.html" class="form my-2">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <div class="form-group my-2">
+            <input
+              type="submit"
+              value="Log In"
+              class="btn btn-primary btn-block"
+            />
+          </div>
+          <div class="form-group">
+            <a href="register.html" class="btn btn-light btn-block">Register</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
